@@ -1,0 +1,828 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Top Navigation Bar */
+.topNavBar
+{
+height: 2.75rem;
+width: 100%;
+background-color: none;
+padding-top: 1rem;
+}
+.topNavBar li{
+    list-style-type: none;
+    display: inline;
+    margin-left:1.625rem; 
+    font-size: 1rem;
+
+}
+.topNavBar a{
+    text-decoration: none;
+    color: lightgray;
+    
+}
+.topNavBar a:hover{
+    color: black;
+}
+/* Main  Logo  Navigation Bar */
+.mainNavBar
+{
+background-color:gainsboro;
+height: 3.875rem;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top:0;
+}
+.fixed
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+#logoA
+{
+    height:3.875rem;   
+    background-color :seagreen;
+    padding: 0.625rem;
+    margin-left:1.55rem ;
+}
+#logoA img
+{
+    margin-top:0.55rem ;
+}
+.mainNavBarInnerDiv
+{
+    height: 3.875rem;
+    width: 100%;
+    margin-right: 1.55rem;
+    padding-top : 0.825rem;
+
+}
+.mainNavBarInnerDiv a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.25rem;
+    margin-left:1rem ;
+    height:3.875rem ;
+    
+}
+.mainNavBarInnerDiv a:hover{
+    color: black;
+}
+#mainNavBarInnerDivSelect
+{
+    border:none;
+    text-decoration: none;
+    color: grey;
+    background-color: gainsboro;
+    font-size: 1.25rem;
+    margin-left:1rem ;
+    initial-value: "Select";
+
+    outline: none;
+    
+    
+}
+#mainNavBarInnerDivSelect:hover
+{
+    color: black;
+}
+
+#searchLogo
+{
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-left: 1.55rem;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+    color: grey;
+}
+#searchLogo:hover
+{
+    color: black;
+}
+
+/*content area*/
+.contentArea
+{
+    height: auto;
+    width: 100%;
+    margin-top: 1.55rem;
+    margin-left: 1.55rem;
+    margin-right: 1.55rem;
+    
+}
+/*first main div*/
+.mainFourDiv
+{
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    display :flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: center;
+    margin-right: 2.55rem;
+
+}
+.mainFourDiv a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 1.25rem;
+  
+}
+.firstArticle
+{
+    height: 25rem;
+    width: 35rem;
+    background-color: black;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.enteryBody
+{
+    height: 10rem;
+    width: 100%;
+    padding:15px;
+}
+.enteryHeader
+{
+    height: 8rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*secondArtical*/
+.multipleArticles
+{
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    height: 25rem;
+    width: 43rem;
+}
+.mainFourDiv .Articles
+{
+    height: 12rem;
+    width: 20rem;
+    background-color: black;
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 8px;
+
+}
+.mainFourDiv .enteryBodyy
+{
+    height: 5rem;
+    width: 8rem;
+    padding:5px;
+}
+.mainFourDiv .enteryHeaderr
+{
+    height: 3.5rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Latest News*/
+#LatesrNew
+{
+    padding-left : 10px;
+    padding-top: 10px;
+    margin-left: 1.55rem;
+    margin-top: 2.55rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: green;
+    border-left: 8px solid green;
+    height: 2.75rem;
+}
+.latestNews
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding:1.5rem;
+}
+.divNews
+{
+    height:18rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+.divNews img
+{
+    height: 10rem;
+    width: 14.5rem;
+    margin: 2px;
+    background-size: cover;
+}
+.divNews p
+{
+    color:#1782b8;
+    font-size: 1rem;
+}
+.divNews h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:black;
+}
+.divNews a
+{
+    text-decoration: none;
+    
+}
+/*Show More */
+.showMoreDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 1.55rem;
+    margin-bottom: 1.55rem;
+    height: 3.5rem;
+    width: 100%;
+
+} 
+.showMoreDiv a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 1.25rem;
+    background-color: seagreen;
+    height: 3.5rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:4px ;  
+}
+/*Tech And Telecom*/
+.Pannel
+{
+    background-color:black;
+    height: auto;
+    width: 100%;
+    color: white;
+    padding: 1.55rem;
+}
+.Pannel h3
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+    padding-left: 1.55rem;
+    border-left: 8px solid green;
+    height: 2.75rem;
+    padding-top:7px ;
+}
+.mainPannelDiv
+{
+   
+    height: 470px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+/*first Div*/
+.firstDiv
+{
+    height: 417px;
+    width: 25rem;
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.firstDiv h5
+{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1.55rem;
+}
+.secondDiv
+{
+    height: 437px;  
+    width: 25rem;
+    
+    
+}
+.secondDiv ul  {
+    list-style-type: none;
+    padding:10px ;
+}
+.secondDiv ul li 
+{
+   
+    font-size: 1rem;
+}
+.listImg
+{
+    height: 88px;
+    width: 150px;
+    color: grey;
+}
+.listSpan
+{
+    height:79.17px;
+    width: 170px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.secondDiv a{
+    text-decoration: none;
+    color: white;
+    height: 88px;
+    width: 393px;
+    display: flex;
+   
+}
+.secondDiv hr{
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ReadMore
+{
+    text-decoration: none;
+    color: #3498DB;
+    font-size: 1.25rem;
+    height: 3.5rem;
+ 
+    
+}
+#ReadIcon
+{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+/*Auto and Sports and Business*/
+
+
+.AutoSport
+{
+
+    height: auto;
+    width: 100%;
+    color: white;
+    padding: 1.55rem;
+    display: flex;
+    justify-content: space-between;
+}
+.topHeadingAutoSport
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+    padding-left: 1.55rem;
+    border-left: 8px solid green;
+    height: 2.75rem;
+    padding-top:7px ;
+}
+.autoSport
+{
+    background-color: lightgreen;
+    width: 25rem;
+}
+.ReadMoreAnchor
+{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1rem;
+   margin-left: 180px;
+}
+.autoSportImg
+{
+    margin-top: 10px;
+    height: 20rem;
+    width: 25rem;
+    margin-bottom: 10px;
+}
+.autoSportTitle
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.titleAnchor
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+/*Education*/
+#ReadMoreEducation{
+margin-top: 10px;
+margin-left:2.55rem;
+
+text-decoration: none;
+color:purple;
+font-size: 1rem;
+height: 3.5rem;
+text-align: start;
+}
+
+/*Pakistan And International*/
+#pakHeading
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+    border-left: 8px solid green;
+    height: 2.75rem;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.pannelPakistanAndInternationl
+{
+    background-color:darkgray;
+    height: 550px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 1.55rem;
+    padding-right: 1.55rem;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pakistan
+ {
+    
+    height: 550px;
+    width: 620px; 
+}
+#firstDivPakistan
+{
+    width:310px;
+    
+}
+#pakSpan
+{
+    width: 140px;
+    font-size: 1rem;
+}
+.pakistanInner
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.pakPara
+{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#pakSpann
+{
+    width: 240px;
+    height:50px;
+    background-color: blue;
+}
+#ReadMorePak
+{
+    text-decoration: none;
+    color: green;
+    font-size: 1.25rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+#ReadIconPak
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* lens and perspective */
+.pannelLensAndPerspective
+{
+    background-color:darkkhaki;
+    height: 760px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    padding-left: 1.55rem;
+    padding-right: 1.55rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.pannelInner
+{
+    height: auto;
+    width: 620px; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.picDiv
+{
+    height: 400px;
+    width:300px;
+}
+.listDiv
+{
+    height:400px;
+    width:300px;
+    padding: 10px;
+}
+.listDiv li ,a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 25px;
+}
+.hrLine
+{
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ScroLLDiv
+{
+    height: 250px;
+    width:100%;
+}
+.lastImg
+{
+    margin:2px;
+    width:300px;
+}
+.lastSpan
+{
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+/*scrollDiv*/
+.scrolldiv {
+    width: 600px;
+    height: 250px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+  }
+  .scrolldiv::-webkit-scrollbar {
+    height: 10px;
+  }
+  .scrolldiv::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  .scrolldiv::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .inner-divv {
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    margin-right: 10px;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+
+  }
+  .inner-divv img {
+    width: 200px;
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  .heading {
+    overflow-x: none;
+    white-space: wrap;
+    height: 100%;
+    padding: 10px; 
+    font-size: 16px;
+    margin: 0; /* Reset margin */
+    box-sizing: border-box;
+  }
+  /*footer*/
+
+ /*footer pannel*/ 
+ .footerPannel
+ {
+        margin-top: 2rem;
+        background-color:#292D30;
+        height: 500px;
+        width: 100%;
+        color: white;
+        padding: 1.55rem;
+        /* display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; */
+ }
+ .firstInnerPannel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 40px;
+
+ }
+ .footerPicdiv
+ {
+
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-image: url("q6kh4rxi.png");
+    background-size: cover;
+
+
+ }
+
+ .footerParaDiv
+ {
+    height: 200px;
+    width: 500px;
+    margin: 20px;
+  
+ }
+ #logoImgFooter
+ {
+    margin: 20px;
+ }
+ #paraFooter
+ {
+    margin: 20px;
+    font-size: 1rem;
+    color:#798186;
+   
+ }
+ .footerFormDiv
+ {
+    margin: 50px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+
+ }
+ #headingH3
+ {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:white;
+    height: 2.75rem;
+    padding-top:7px ;
+ }
+ #inputFooter
+ {
+
+    height: 2.75rem;
+    width: 13rem;
+    margin-top:30px;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    color: white;
+    border: none;
+    
+ }
+
+ #buttonFooter
+ {
+    background-color:#292D30 ;
+    height: 2.75rem;
+    width: 5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+ }
+#buttonFooter:hover
+{
+    transform: scale(1.3);
+    
+
+}
+
+ /*SocialMedia Icons*/
+ .socialMediaIcons
+ {
+    margin-top: 10px;
+
+ }
+ .socialMediaIcons i{
+    font-size: 3rem;
+    margin-right: 5px;
+    color: white;
+    background-color: #292D30;
+
+ }
+ .socialMediaIcons i:hover{
+    transform: scale(1.3);
+ }
+ #facebook:hover
+ {
+    color: #3b5998;
+}
+#twitter:hover
+{
+    color: #00acee;
+}
+#instagram:hover
+{
+    color: #c32aa3;
+}
+#linkedin:hover
+{
+    color: #0e76a8;
+}
+#youtube:hover
+{
+    color: #c4302b;
+}
+#whatsapp:hover
+{
+    color: #25d366;
+}
+#snapchat:hover
+{
+    color: #fffc00;
+}
+.paraa
+{
+    font-size: 1rem;
+    color:#798186;
+}
+#pa
+{
+    margin-top: 5px;
+}
+/*footer nav bar */
+.footerNavBarImages
+{
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 1.55rem;
+}
+.footerNavBar
+{
+    padding: 1.55rem;
+    background-color:lightgray;
+    height: 2.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/*end of page*/
